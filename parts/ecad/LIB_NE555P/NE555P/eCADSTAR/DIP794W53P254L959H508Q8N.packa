@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NE555P"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-12-12:57:00)
+    (mountForm default
+        (footprintRef "DIP794W53P254L959H508Q8N")
+        (spec "System")
+    )
+)

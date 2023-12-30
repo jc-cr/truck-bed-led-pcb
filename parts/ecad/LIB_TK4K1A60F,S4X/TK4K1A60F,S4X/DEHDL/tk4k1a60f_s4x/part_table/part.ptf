@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TK4K1A60F_S4X'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Toshiba", "TK4K1A60F,S4X" (!) = "", "TO254P470X1000X1870-3P", "Transistor Outline, Vertical", "757-TK4K1A60FS4X", "https://www.mouser.co.uk/ProductDetail/Toshiba/TK4K1A60FS4X?qs=d0WKAl%252BL4Kbu96S36EMnhw%3D%3D", "Pb-F POWER MOSFET TRANSISTOR TO-220SIS PD=30W F=1MHZ", "https://www.mouser.fr/datasheet/2/408/TK4K1A60F_datasheet_en_20180925-1634495.pdf", "4.7 mm"
+END_PART
+
+END.

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_4674895"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-18-07:10:28)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "TK4K1A60F_S4X")
+)
+
+
+(pinAssign "ECS_4674895"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-18-07:10:28)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_4674895")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TK4K1A60F_S4X")
+)
+
+
+(part "TK4K1A60F_S4X"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-18-07:10:28)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "TK4K1A60F_S4X")
+    (pinAssignRef "ECS_4674895")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Pb-F POWER MOSFET TRANSISTOR TO-220SIS PD=30W F=1MHZ")
+    (property "Mouser_Part_Number" "757-TK4K1A60FS4X")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TK4K1A60FS4X?qs=d0WKAl%252BL4Kbu96S36EMnhw%3D%3D")
+    (property "Manufacturer_Name" "Toshiba")
+    (property "Manufacturer_Part_Number" "TK4K1A60F,S4X")
+    (property "Datasheet_Link" "https://www.mouser.fr/datasheet/2/408/TK4K1A60F_datasheet_en_20180925-1634495.pdf")
+    (property "compAreaTopHeight" 4.7)
+)
+
+

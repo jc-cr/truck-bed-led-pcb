@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TK4K1A60F_S4X"
+   (description "Pb-F POWER MOSFET TRANSISTOR TO-220SIS PD=30W F=1MHZ")
+   (family "TRX")
+   (package "TO254P470X1000X1870-3P")
+   (attribute "Datasheet Link" "https://www.mouser.fr/datasheet/2/408/TK4K1A60F_datasheet_en_20180925-1634495.pdf")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Mouser Part Number" "757-TK4K1A60FS4X")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TK4K1A60FS4X?qs=d0WKAl%252BL4Kbu96S36EMnhw%3D%3D")
+   (attribute "Manufacturer_Name" "Toshiba")
+   (attribute "Manufacturer_Part_Number" "TK4K1A60F,S4X")
+   (gate
+    (symbol "TK4K1A60F_S4X")
+    (pin "G" 1 PS)
+    (pin "D" 2 PS)
+    (pin "S" 3 PS)
+   )
+  )
+  (symbol "TK4K1A60F_S4X"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P470X1000X1870-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.86 3.345)
+      (pt 7.94 3.345)
+      (pt 7.94 -1.855)
+      (pt -2.86 -1.855)
+      (pt -2.86 3.345))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.61 3.095)
+      (pt 7.69 3.095)
+      (pt 7.69 -1.605)
+      (pt -2.61 -1.605)
+      (pt -2.61 3.095))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.61 1.825)
+      (pt -1.34 3.095))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.69 -1.605)
+      (pt 7.69 3.095)
+      (pt -2.61 3.095)
+      (pt -2.61 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.35)
+    (plated true)
+    (pad (layer TCOP) (round 2.025))
+    (pad (layer INNER) (round 2.025))
+    (pad (layer BCOP) (round 2.025))
+   )
+   (padstack 1
+    (hole 1.35)
+    (plated true)
+    (pad (layer TCOP) (square 2.025))
+    (pad (layer INNER) (round 2.025))
+    (pad (layer BCOP) (square 2.025))
+   )
+   (model "TK4K1A60F,S4X.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

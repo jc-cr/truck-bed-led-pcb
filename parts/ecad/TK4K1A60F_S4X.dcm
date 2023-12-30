@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TK4K1A60F,S4X
+D Pb-F POWER MOSFET TRANSISTOR TO-220SIS PD=30W F=1MHZ
+K
+F https://www.mouser.fr/datasheet/2/408/TK4K1A60F_datasheet_en_20180925-1634495.pdf
+$ENDCMP
+#
+#End Doc Library

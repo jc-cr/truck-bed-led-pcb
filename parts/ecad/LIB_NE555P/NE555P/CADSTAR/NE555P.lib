@@ -1,0 +1,16 @@
+.NE555P :1 ;Precision timer,NE555P 0.5MHz DIL8 Texas Instruments NE555P, Precision Timer, 4.5  16 V, 8-Pin PDIP
+DIP794W53P254L959H508Q8N
+*STM IC
+*NGS
+*PLB 1="GND" 2="TRIG" 3="OUT" 4="RESET" 5="CONT" 6="THRES" 7="DISCH" 8="VCC"
+*MXP 8
+*DFN NE555P
+~!Mouser Part Number (595-NE555P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/NE555P?qs=rkhjVJ6%2F3EIf4CWgjIKuKQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (NE555P)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/ne555.pdf)
+~!Height (5.08mm)
+~!3D_Model (NE555P)
+NE555P
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

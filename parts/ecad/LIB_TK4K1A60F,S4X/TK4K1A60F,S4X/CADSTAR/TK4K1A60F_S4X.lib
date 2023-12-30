@@ -1,0 +1,16 @@
+.TK4K1A60F_S4X :1 ;Pb-F POWER MOSFET TRANSISTOR TO-220SIS PD=30W F=1MHZ
+TO254P470X1000X1870-3P
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN TK4K1A60F_S4X
+~!Mouser Part Number (757-TK4K1A60FS4X)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Toshiba/TK4K1A60FS4X?qs=d0WKAl%252BL4Kbu96S36EMnhw%3D%3D)
+~!Manufacturer_Name (Toshiba)
+~!Manufacturer_Part_Number (TK4K1A60F,S4X)
+~!Link Datasheet (https://www.mouser.fr/datasheet/2/408/TK4K1A60F_datasheet_en_20180925-1634495.pdf)
+~!Height (4.7mm)
+~!3D_Model (TK4K1A60F,S4X)
+TK4K1A60F_S4X
+1.1!U 2.1!U 3.1!U 

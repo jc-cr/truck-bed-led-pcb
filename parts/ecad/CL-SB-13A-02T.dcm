@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL-SB-13A-02T
+D Slide Switches slide , 1 pole 3 cont., top set., J-lead, gold contact, 2mm knob
+K
+F https://www.nidec-components.com/e/catalog/switch/cl-sb.pdf
+$ENDCMP
+#
+#End Doc Library
